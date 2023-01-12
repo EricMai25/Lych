@@ -45,13 +45,12 @@ export const socialData = [
 ];
 
 export const heroData = {
-  title: 'I’m Void Sir.',
+  title: 'I’m Kai.',
   subtitle:
-    'Tattoos have their own unique power and magic. They not only beautify the body but also the psyche.',
+    'I do tattoo',
   btnText: 'read more',
   btnIcon: <IoMdArrowForward />,
 };
-
 export const aboutData = {
   title: 'My Story:',
   subtitle1:
