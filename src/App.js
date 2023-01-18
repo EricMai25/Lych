@@ -19,13 +19,13 @@ const App = () => {
       <Hero />
       <About />
       <GallerySection />
-      <Skills />
-      <Testimonial />
-      <Interview />
+      {/* <Skills /> */}
+      {/* <Testimonial /> */}
+      {/* <Interview /> */}
       <Contact />
       <Footer />
-      <Copyright />
-      <div className='h-[4000px]'></div>
+      {/* <Copyright /> */}
+      {/* <div className='h-[4000px]'></div> */}
     </div>
   );
 };

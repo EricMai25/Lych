@@ -30,9 +30,9 @@ export const navData = {
     { href: '/', name: 'Home' },
     { href: '/', name: 'About' },
     { href: '/', name: 'Gallery' },
-    { href: '/', name: 'Interview' },
-    { href: '/', name: 'Articles' },
-    { href: '/', name: 'Contact' },
+    { href: '/', name: 'Booking' },
+    { href: '/', name: 'Booking info' },
+    { href: '/', name: 'Flash Design' },
   ],
 };
 
@@ -143,68 +143,52 @@ export const testimonialData = [
 
 export const contactData = {
   title: 'Get in touch with me:',
+  btnIcon: <IoMdArrowForward />,
   info: [
     {
-      title: 'LA office',
+      title: 'Want too book?',
       subtitle:
-        'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus',
+        'Currently Booking for February ',
       address: {
         icon: <FaMapMarkerAlt />,
-        name: '784 Norman Street, Los Angeles',
+        name: 'Address?',
       },
       phone: {
         icon: <FaPhoneAlt />,
-        number: '+49 93 30493943',
+        number: '510 121 1212',
       },
       email: {
         icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
+        address: 'personal email@something.com',
       },
       link: 'Get location',
     },
-    {
-      title: 'NYC office',
-      subtitle:
-        'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
-      address: {
-        icon: <FaMapMarkerAlt />,
-        name: '1630 Elm Drive, New York City',
-      },
-      phone: {
-        icon: <FaPhoneAlt />,
-        number: '+49 34 36573355',
-      },
-      email: {
-        icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
-      },
-      link: 'Get location',
-    },
+    
   ],
   form: {
     name: 'Write your name here',
     email: 'Write your email address',
     message: 'Write your messages here',
-    btnText: 'Send it',
+    btnText: 'Book Now',
   },
 };
 
 export const footerData = {
   about: {
-    title: 'About void tattoo',
+    title: 'About me',
     subtitle:
-      'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
+      'Is a girl Kai',
     address: {
       icon: <FaMapMarkerAlt />,
-      name: '1630 Elm Drive, New York City',
+      name: 'Maybe an address',
     },
     phone: {
       icon: <FaPhoneAlt />,
-      number: '+49 34 36573355',
+      number: 'Add a number',
     },
     email: {
       icon: <FaEnvelope />,
-      address: 'contact@yourcompany.com',
+      address: 'Fix this email@later.com',
     },
   },
   links: {
@@ -219,10 +203,7 @@ export const footerData = {
   program: {
     title: 'Working Time',
     items: [
-      { name: 'Mon - Tue / Appointment' },
-      { name: 'Wed - Fri / 10:00 - 9:00pm' },
-      { name: 'Sat / 10:00 - 6:00pm' },
-      { name: 'Sun / no work on this day' },
+      { name: 'Tue- Sat / 10pm-5pm' },
     ],
   },
   newsletter: {
